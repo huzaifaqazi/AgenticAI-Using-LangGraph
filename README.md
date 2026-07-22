@@ -8,8 +8,7 @@ A hands-on collection of agentic AI workflows built with **LangGraph** — from 
 |---|---|---|
 | [`00_Bmi_Cal_Workflow`](./00_Bmi_Cal_Workflow) | BMI calculator as a state graph | Deterministic workflow, `StateGraph` basics, 2-node pipeline |
 | [`01_Simple_LLM_based`](./01_Simple_LLM_based) | LLM-powered Q&A with Groq & Llama 3.1 | External LLM integration, single-node graph, prompt engineering |
-
-More agents and workflows will be added progressively.
+| [`02_Sequential_Workflow`](./02_Sequential_Workflow) | Prompt chaining — outline → blog → scoring | Sequential `StateGraph`, prompt injection, 3-node pipeline |
 
 ## 🧠 What is LangGraph?
 
@@ -66,6 +65,8 @@ AgenticAI-Using-LangGraph/
 │   └── 00_bmi_cal_workflow.ipynb
 ├── 01_Simple_LLM_based/
 │   └── Simple_LLm_based_workflow.ipynb
+├── 02_Sequential_Workflow/
+│   └── Sequential_workflow.ipynb
 └── README.md
 ```
 
